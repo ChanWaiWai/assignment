@@ -9,7 +9,7 @@ package DVDCorner;
  *
  * @author wchan
  */
-public class DVD {
+public abstract class DVD {
     private int dvdID;
     private String title;
     private int length;
