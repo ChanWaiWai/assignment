@@ -10,8 +10,8 @@ package DVDCorner;
  * @author wchan
  */
 public class MV extends DVD{
-    private String singer;
-
+    String singer;
+    
     public MV(int dvdID, String title, int length, int numAvailable, String singer) {
         super(dvdID, title, length, numAvailable);
         this.singer = singer;
