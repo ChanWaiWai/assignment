@@ -21,7 +21,7 @@ public class MV extends DVD{
         return singer;
     }
     
-    public void SetSinger(String singer){
+    public void setSinger(String singer){
         this.singer = singer;
     }
     

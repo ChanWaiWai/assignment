@@ -42,7 +42,7 @@ public class Main {
             }else if(line.equals("u")){
                 if(history.size() > 0){
                     Command com = (Command) history.remove(history.size() - 1);
-                    com.undo();
+                    
                 }
             }else if(line.equals("c")){
                 Command com = commandFactory[0].create();

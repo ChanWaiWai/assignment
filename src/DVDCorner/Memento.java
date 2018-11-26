@@ -7,8 +7,11 @@ package DVDCorner;
 
 /**
  *
- * @author wai
+ * @author user
  */
-public interface Command {
-    public void execute();
+public interface Memento {
+    public int getDvdId();
+    public String getTitle();
+    public DVD getDVD();
+    public void restore();
 }
